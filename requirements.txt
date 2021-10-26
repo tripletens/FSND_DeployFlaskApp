@@ -3,3 +3,4 @@ flask
 gunicorn
 pytest
 typing
+flask_cors
