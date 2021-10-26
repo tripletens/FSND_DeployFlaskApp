@@ -47,7 +47,7 @@ def after_request(response):
     response.headers.add('Access-Control-Allow-Headers',
                          'Content-Type, Authorization, true')
     response.headers.add(
-        'Access-Control-Allow-Methods', 'GET, POST')
+        'Access-Control-Allow-Methods', 'GET, OPTIONS, POST')
     return response
 
 
