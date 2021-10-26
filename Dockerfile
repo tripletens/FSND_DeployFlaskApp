@@ -9,6 +9,7 @@ WORKDIR /app
 #install and update packages
 RUN apt-get update
 RUN apt-get install python3-pip -y
+RUN pip install --upgrade pip
 RUN pip uninstall jwt
 RUN pip install -r requirements_container.txt
 
