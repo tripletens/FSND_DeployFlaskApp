@@ -1,5 +1,5 @@
 # parent image
-FROM python:stretch
+FROM python:3.7.7-stretch
 
 #create directory, copy files and set working directory
 RUN mkdir /app
